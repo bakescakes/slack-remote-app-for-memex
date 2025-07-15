@@ -1,0 +1,13 @@
+# Security: Never commit tokens or secrets
+.env
+*.env
+config/auth.json
+auth.json
+
+# Python
+__pycache__/
+*.pyc
+.venv*/
+
+# Logs
+*.log
